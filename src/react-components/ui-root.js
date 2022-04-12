@@ -1607,7 +1607,7 @@ class UIRoot extends Component {
                           onClick={() => exit2DInterstitialAndEnterVR(true)}
                         />
                       )}
-                    {entered && (
+                    {/* {entered && (
                       <ToolbarButton
                         icon={<LeaveIcon />}
                         label={<FormattedMessage id="toolbar.leave-room-button" defaultMessage="Leave" />}
@@ -1619,7 +1619,7 @@ class UIRoot extends Component {
                           });
                         }}
                       />
-                    )}
+                    )} */}
                     <MoreMenuPopoverButton menu={moreMenu} />
                   </>
                 }
