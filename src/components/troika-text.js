@@ -55,7 +55,7 @@ AFRAME.registerComponent("text", {
     // This is different from the Troika preoperty name, Using "fontUrl" to prevent conflict with previous "font" p=roperty and to allow us to make named fonts later
     fontUrl: {
       type: "string",
-      default: "https://meta2.uokdc.com/assets/font/SpoqaHanSansNeo-Regular.woff"
+      default: "https://meta-uokdc.com/assets/fonts/SpoqaHanSansNeo-Regular.woff"
     },
     // This default value differs from the Troika default of 0.1, it most closely matches the size of our previous text component.
     fontSize: { type: "number", default: 0.075 },
